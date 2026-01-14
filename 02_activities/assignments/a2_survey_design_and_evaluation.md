@@ -11,7 +11,6 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 1.	In two to three sentences, describe the purpose of your survey
 2.	Describe your target population, sampling frame, sampling units, and overall sampling strategy.
 3.	Write a 5-10 question survey to address your chosen scenario below.
-
 ##### Scenarios
 1.	You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
 2.	You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
@@ -40,30 +39,86 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
-```
+The purpose of this survey is to understand what policy issues, leadership qualities, and campaign messages are most important to Canadian voters one month before the federal election in order to guide strategic decisions for the party. This will help the party tailor its messaging and platform to maintain and grow voter support.```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is Canadian citizens aged 18 and older who are eligible to vote in the federal election. The sampling frame is a list of Canadian voters drawn from voter registration databases supplemented with regional telephone and email contact information. The sampling units are individual registered voters, and the observational units are the individual responses to the survey questions. A stratified random sampling strategy will be used — stratified by province/territory and key demographics (age, gender) — to ensure representation across regions and demographic groups.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. **Which party do you currently intend to vote for in the upcoming federal election?**
+   - Liberal Party
+   - Conservative Party
+   - New Democratic Party
+   - Bloc Québécois
+   - Green Party
+   - Other
+   - Undecided
+
+2. **Please rate how important each of the following issues are to your vote:** (1=Not important, 5=Very important)
+   - Healthcare
+   - Economy and jobs
+   - Climate change/environment
+   - Housing affordability
+   - Public safety
+   - Immigration
+
+3. **What is the single most important reason for your choice of party/leader?** 
+(open-ended)
+
+4. **What quality do you most want to see in a party leader?**
+   - Strong communicator
+   - Integrity
+   - Experience in government
+   - Vision for the future
+   - Other (please specify)
+
+5. **How satisfied are you with your current federal party leader?**
+   - Very satisfied
+   - Somewhat satisfied
+   - Neutral
+   - Somewhat dissatisfied
+   - Very dissatisfied
+
+6. **How likely are you to change your vote decision before election day?**
+   - Very likely
+   - Somewhat likely
+   - Unsure
+   - Somewhat unlikely
+   - Very unlikely
+
+7. **Do you feel the current campaign has addressed your concerns effectively?**
+   - Yes
+   - No
+   - Unsure
+
+8. **Which of the following campaign methods influences you the most?**
+   - Television ads
+   - Social media
+   - Radio
+   - Community events
+   - Conversations with friends/family
+   - News articles
+   - Other
+
+9. **Would you be more likely to vote if there was more focus on local issues?**
+   - Yes
+   - No
+   - No difference
+
+10. **Please indicate your age group:**
+   - 18–24
+   - 25–34
+   - 35–44
+   - 45–54
+   - 55–64
+   - 65+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +126,49 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. **Sample type:**  
+   The 2018 GSS GVP used a **probability sample** with a stratified cross-sectional design. A frame combining telephone numbers (landline and cellular) and dwelling addresses was used for sampling. Respondents were selected probabilistically within strata defined by province/CMAs. :contentReference[oaicite:0]{index=0}
+
+2. **Sample size:**  
+   Documentation indicates a field sample of approx. 50,000 units was used, with an expected completion of ~24,000 questionnaires. (Exact achieved sample sizes for 2018 should be looked up in the detailed user guide.) :contentReference[oaicite:1]{index=1}
+
+3. **Target population:**  
+   All persons **15 years of age or older living in private households in the ten Canadian provinces**. It excludes full-time institutional residents. :contentReference[oaicite:2]{index=2}
+
+4. **Sampling frame:**  
+   The frame combined telephone numbers (landline and cellular) with Statistics Canada’s dwelling frame and administrative sources to improve coverage. :contentReference[oaicite:3]{index=3}
+
+5. **Survey mode(s):**  
+   Data were collected using a mixed mode with **electronic questionnaires offered for the first time** and traditional CATI (telephone interviewing). :contentReference[oaicite:4]{index=4}
+
+6. **Timeline:**  
+   The survey was conducted from **September to December 2018** as part of the General Social Survey cycle. :contentReference[oaicite:5]{index=5}
+
+7. **Response rate:**  
+   Response rates specific to GSS GVP 2018 are not directly listed in the user documentation but broader GSS response rate reports show the 2018 GSS cycle on giving, volunteering and participating had about a **41.9 % response rate**. :contentReference[oaicite:6]{index=6}
+
+8. **Weights:**  
+   Weights are provided to produce estimates representative of the target population. Users must apply appropriate sample weights for correct national estimates. :contentReference[oaicite:7]{index=7}
+
+9. **Data processing:**  
+   Standard processing includes consistency edits, flow checks, and preparation of public use microdata files. Detailed processing appears in the user guide documentation. :contentReference[oaicite:8]{index=8}
+
+10. **Cleaning, imputation, etc:**  
+   The user guide notes sample weighting and guidelines; while specific imputation methods for 2018 are not detailed in the publicly summary, GSS surveys commonly use editing and imputation to account for partial non-response. :contentReference[oaicite:9]{index=9}
+
+11. **Sources of error:**  
+   Data are subject to both sampling and non-sampling errors such as non-response bias, measurement error, and coverage issues. Bootstrapping is used to estimate sampling variability. :contentReference[oaicite:10]{index=10}
+
+12. **Limitations, known biases, etc:**  
+   Comparability with previous cycles may be affected due to changes such as introducing online collection and survey content changes. Coverage may be biased by non-response or difficulty reaching certain respondents (e.g., no phone/internet). :contentReference[oaicite:11]{index=11}
+
+13. **Links to documentation and any additional sources used:**  
+   - **Statistics Canada Catalogue – GSS (Cycle 33) Public Use Microdata File User Guide:**  
+     https://www150.statcan.gc.ca/n1/en/catalogue/45250011 :contentReference[oaicite:12]{index=12}  
+   - **Statistics Canada Daily release – GSS GVP overview:**  
+     https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.pdf :contentReference[oaicite:13]{index=13}  
+   - **IMDB survey record (Sampling & methodology):**  
+     https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234 :contentReference[oaicite:14]{index=14}
 ```
 
 ## Rubric
